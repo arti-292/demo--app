@@ -1,22 +1,3 @@
-// const initialState = {
-//   items: []
-// };
-
-// let counter = (state = initialState, action) => {
-//   switch (action.type) {
-//     case "ADD_ITEM":
-//       return { ...state, items: [...state.items, action.item] };
-//     case "DELETE_ITEM":
-//       const newItems = state.items.filter((item, key) => key !== action.index);
-//       return { ...state, items: newItems };
-//     default:
-//       return state;
-//   }
-// };
-// export default counter;
-
-
-
 
 const initialContact = { user: [], index: 0, isEdit: false };
 
